@@ -9,7 +9,7 @@ public class Show{
     static HashMap<Integer, String> Operas = new HashMap<>();
     static HashMap<Integer, String> Ballets = new HashMap<>();
     private static Scanner sc = new Scanner(System.in);
-    public static void Genre(){
+    public static void genre(){
 
         System.out.println("Выберите жанр: 1 - Опера, 2 - Балет, 3 - Пьеса");
         Shows.put(1, "Опера");
@@ -30,6 +30,7 @@ public class Show{
                 Play();
                 break;
         }
+        //int choice1=Shows
     }
     public static void Opera(){
         Operas.put(1, "Фигаро");
@@ -48,7 +49,7 @@ public class Show{
                 System.out.println("Вы выбрали " + Operas.get(3));
                 break;
             case 4:
-                Genre();
+                genre();
                 break;
         }
         show=Operas.get(opera);
@@ -72,7 +73,7 @@ public class Show{
                 System.out.println("Вы выбрали " + Ballets.get(3));
                 break;
             case 4:
-                Genre();
+                genre();
                 break;
         }
         cost=55;
@@ -96,7 +97,7 @@ public class Show{
                 System.out.println("Вы выбрали " + Plays.get(3));
                 break;
             case 4:
-                Genre();
+                genre();
                 break;
         }
         cost=50;

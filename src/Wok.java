@@ -1,7 +1,7 @@
 public class Wok {
     public static void main(String[] args) {
-    User.UserFromConsole();
-    Show.Genre();
+    User.userFromConsole();
+    Show.genre();
     Place.place();
     Order.Cost();
     }
